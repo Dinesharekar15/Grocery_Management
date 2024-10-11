@@ -40,7 +40,7 @@ function Create() {
                         <input 
                             type="text" 
                             name="name" 
-                            required 
+                            required
                             className="p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500"
                             onChange={(e) => setValues({...values, name: e.target.value})} 
                         />
